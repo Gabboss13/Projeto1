@@ -1,0 +1,144 @@
+
+@font-face {
+    font-family: Cinzel;
+    src: url(Cinzel-VariableFont_wght.ttf);}
+
+@font-face {
+    font-family:Manrope;
+    src: url(Manrope-VariableFont_wght.ttf);
+}
+
+
+body.back {
+     background-image: url(fundo.jpg);
+}
+
+.container {display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: rgba(197, 189, 189, 0.603);
+}
+
+.container p {
+    font-size: 20px;
+    font-family: Cinzel;
+    color: rgb(27, 27, 26);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+.historia {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: rgba(75, 68, 68, 0.445);
+}
+
+.historia p {font-size: 20px;
+    font-family: Cinzel;
+    text-align: center;
+    padding: 10px;
+    color: rgba(131, 128, 122, 0.829);
+}
+
+.personagens { 
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+button {
+    font-size: 20px;
+    font-family: Cinzel;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(79, 88, 79);
+    color: honeydew;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+}
+
+#sombra1:hover {
+    box-shadow: 10px 5px 5px greenyellow;
+}
+    
+#sombra2:hover {
+    box-shadow: 10px 5px 5px rgb(4, 53, 214);
+    }
+
+#sombra3:hover {
+    box-shadow: 10px 5px 5px rgb(126, 78, 145);
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: rgba(255, 255, 240, 0.39);
+}
+
+
+.back2 {
+    background-image: url(fundo2.jpg);
+    background-size: cover;
+}
+
+
+.escolha {
+    background-color: rgba(88, 86, 78, 0.185);
+    min-width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(88, 86, 78, 0.185);
+    border-width:.5px;
+    margin: 25px;
+    padding: 15px;
+}
+
+.escolha img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    border:solid;
+    border-width: 0.3px;
+    border-color: rgba(0, 0, 0, 0.507);
+}
+
+.escolha p {
+    color: lightslategrey;
+    font-size: 18px;
+    font-family: Cinzel;
+}
+
+.ppersona footer { background-color: rgba(0, 0, 0, 0.801);
+    position:relative;
+    bottom:0;
+    width:99%;}
+
+.rodape { display: flex;
+justify-content: center;}
+
+.copyright { text-align:center;
+font-size:15px;
+color: rgb(199, 196, 186);
+margin: auto;}

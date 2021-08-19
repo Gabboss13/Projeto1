@@ -1,0 +1,91 @@
+@font-face{ 
+    font-family: Philospher;
+    src: url(../Philosopher-Regular.ttf);}
+
+
+.back5 {
+    background-image: url(fundo5.jpg);
+    background-size: cover;
+}
+
+.historiap3 {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 93%;
+    height: 35%;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgba(197, 189, 189, 0.397);
+    box-shadow: 15px 7px 7px rgba(39, 38, 38, 0.418);
+}
+
+.historiap3 h1 {
+    font-family: Philosopher;
+    color:rgba(0, 0, 0, 0.781);
+}
+
+.historiap3 p {font-size:25px;
+    font-family: Philosopher;
+    padding: 25px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+
+input {
+    font-size: 20px;
+    font-family: Philospher;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(202, 209, 202, 0.747);
+    color: rgb(8, 7, 7);
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+}
+
+input:hover {
+    cursor: pointer;
+    box-shadow: 10px 5px 5px greenyellow;
+    transition: 0.5s;
+}
+
+
+button { 
+    font-size: 20px;
+    font-family: Philospher;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(202, 209, 202, 0.747);;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 10px 5px 5px greenyellow;
+    transition: 0.5s;
+}
+
+footer { background-color: rgba(0, 0, 0, 0.801);
+        position:absolute;
+        bottom:0;
+        width:99%;}
+
+.rodape { display: flex;
+    justify-content: center;}
+
+.copyright { text-align:center;
+font-size:15px;
+color: rgb(199, 196, 186);
+margin: auto;}
